@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrelomas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <section class="hero" style="background-image: url('{{ url_for('static', filename='images/' + hero_image) }}');">
+        <div class="overlay">
+            <h1>Entrelomas</h1>
+            <p>Matemáticas, tecnología y vida cotidiana</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Bienvenido</h2>
+        <p>
+            Este es un espacio personal donde convergen la matemática,
+            la tecnología y la vida cotidiana.
+        </p>
+
+	<a class="button" href="https://entrelomas248-chat.mecha-ozzy.com/" target="_blank">
+    	Acceder al Chat
+	</a>
+
+    </section>
+
+    <footer>
+        © 2026 José Ricardo Arteaga Bejarano · Universidad de los Andes · Bogotá
+    </footer>
+
+</body>
+</html>
